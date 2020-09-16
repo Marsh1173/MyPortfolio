@@ -66,3 +66,10 @@ header img {
   transform: translateX(-50%);
   vertical-align: bottom;
 }
+
+@media (min-width: 600px) {
+  p {
+    font-size: 1.25rem;
+  }
+
+}
