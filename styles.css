@@ -37,20 +37,31 @@ li {
 li a {
   display: block;
   color: white;
-  text-align: center;
   padding: 14px 20px;
+  text-align: center;
   text-decoration: none;
 }
 li a:hover {
   background-color: #2a6e6e;
 
 }
+
+#active {
+  background-color: #29a6a6;
+
+}
+
+
 .red {
   color: red;
 }
 #achievements {
   color: purple;
 }
+
+
+
+
 .container {
   margin: 0;
   height: 150px;
