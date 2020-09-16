@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #dddddd;
+  background-color: #cbcfd4;
   font-family: "Helvetica", "Arial", sans-serif;
   text-align: center;
 }
@@ -18,26 +18,27 @@ p, h2 {
   list-style-type: none;
   margin: 0;
   padding: 0;
-}
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
   overflow: hidden;
   background-color: #696969;
+  border-top: 2px solid #4f4f4f;
+  border-bottom: 2px solid #4f4f4f;
 }
 
 li {
   float: left;
-  border: 1px solid #696969;
-  border-right: 1px solid #bbb
+  border-right: 2px solid #4f4f4f;
+}
+.LIright {
+  float: right;
+  border-right: none;
+  border-left: 2px solid #4f4f4f;
 }
 
 li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 20px;
   text-decoration: none;
 }
 li a:hover {
@@ -49,4 +50,19 @@ li a:hover {
 }
 #achievements {
   color: purple;
+}
+.container {
+  margin: 0;
+  height: 150px;
+  padding: 0;
+}
+header {
+  overflow: hidden;
+}
+header img {
+  margin: none;
+  padding: none;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  vertical-align: bottom;
 }
