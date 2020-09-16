@@ -14,6 +14,8 @@ p, h2 {
   padding: 10px;
   font-weight: normal;
 }
+
+
 .horizontal {
   list-style-type: none;
   margin: 0;
@@ -23,7 +25,6 @@ p, h2 {
   border-top: 2px solid #4f4f4f;
   border-bottom: 2px solid #4f4f4f;
 }
-
 li {
   float: left;
   border-right: 2px solid #4f4f4f;
@@ -33,7 +34,6 @@ li {
   border-right: none;
   border-left: 2px solid #4f4f4f;
 }
-
 li a {
   display: block;
   color: white;
@@ -45,21 +45,10 @@ li a:hover {
   background-color: #2a6e6e;
 
 }
-
 #active {
   background-color: #29a6a6;
 
 }
-
-
-.red {
-  color: red;
-}
-#achievements {
-  color: purple;
-}
-
-
 
 
 .container {
@@ -77,6 +66,7 @@ header img {
   transform: translateX(-50%);
   vertical-align: bottom;
 }
+
 
 @media (min-width: 600px) {
   p {
