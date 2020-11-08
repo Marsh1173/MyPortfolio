@@ -25,7 +25,7 @@ export default {
   components: {
     Directory,
     HeaderImage,
-    Footer
+    Footer,
   },
 }
 </script>

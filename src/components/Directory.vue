@@ -33,20 +33,7 @@
         <a class="dropdown-item disabled" href="#">Lab 6 Replit</a>
       </div>
     </li>
-    <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        CS260
-      </a>
-      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-        <a class="dropdown-item" href="http://lab1.natehroylance.com/">Lab 1</a>
-        <a class="dropdown-item" href="http://lab2.natehroylance.com/">Lab 2</a>
-        <a class="dropdown-item" href="http://lab3a.natehroylance.com/">Lab 3a</a>
-        <a class="dropdown-item" href="http://motherearth.natehroylance.com/">Lab 3b</a>
-        <div class="dropdown-divider"></div>
-        <a class="dropdown-item" href="http://cp1.natehroylance.com/">Creative Project 1</a>
-        <a class="dropdown-item" href="http://cp2.natehroylance.com/">Creative Project 2</a>
-      </div>
-    </li>
+    <li class="nav-item"><router-link class="nav-link btn btn-sm btn-outline-secondary" to="/cs260"><b>CS260</b></router-link></li>
 
   </ul>
 </div>
@@ -76,5 +63,11 @@ img {
 .nav-link {
   width: 80px;
   height: 40px;
+}
+@media only screen and (max-width: 779px) {
+img {
+  width: 30px;
+  height: 30px;
+}
 }
 </style>

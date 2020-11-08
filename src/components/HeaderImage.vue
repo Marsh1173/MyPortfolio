@@ -26,4 +26,14 @@ header img {
   vertical-align: bottom;
   border-bottom: 2px solid gray;
 }
+@media only screen and (max-width: 779px) and (min-width: 669px) {
+  header img {
+    height: 150px;
+  }
+}
+@media only screen and (max-width: 668px) {
+  header img {
+    height: 100px;
+  }
+}
 </style>
