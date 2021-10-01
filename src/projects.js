@@ -1,5 +1,22 @@
-let projectData = [{
+let projectData = [
+  {
     id: 1,
+    name: "[currently disabled]",
+    date: "6/3/21",
+    url: "http://game2.natehroylance.com/",
+    alt: "image of game 1",
+    image: 'game1.jpg',
+  },
+  {
+    id: 2,
+    name: "InterByte Heroes",
+    date: "9/20/21",
+    url: "https://ibh.natehroylance.com/",
+    alt: "image of game 2",
+    image: 'game2.jpg',
+  },
+  {
+    id: 3,
     name: "Lab 1",
     date: "9/19/20",
     url: "http://lab1.natehroylance.com/",
@@ -7,7 +24,7 @@ let projectData = [{
     image: 'lab1.jpg',
   },
   {
-    id: 2,
+    id: 4,
     name: "Lab 2",
     date: "10/10/20",
     url: "http://lab2.natehroylance.com/",
@@ -15,7 +32,7 @@ let projectData = [{
     image: 'lab2.jpg',
   },
   {
-    id: 3,
+    id: 5,
     name: "Lab 3a",
     date: "10/24/20",
     url: "http://lab3a.natehroylance.com/",
@@ -23,7 +40,7 @@ let projectData = [{
     image: 'lab3a.jpg',
   },
   {
-    id: 4,
+    id: 6,
     name: "Lab 3b",
     date: "10/30/20",
     url: "http://motherearth.natehroylance.com/",
@@ -31,7 +48,7 @@ let projectData = [{
     image: 'lab3b.jpg',
   },
   {
-    id: 5,
+    id: 7,
     name: "CProject 1",
     date: "9/26/20",
     url: "http://cp1.natehroylance.com/",
@@ -39,28 +56,12 @@ let projectData = [{
     image: 'cp1.jpg',
   },
   {
-    id: 6,
+    id: 8,
     name: "CProject 2",
     date: "10/17/20",
     url: "http://cp2.natehroylance.com/",
     alt: "image of cp 2",
     image: 'cp2.jpg',
-  },
-  {
-    id: 7,
-    name: "1st Game",
-    date: "11/3/20",
-    url: "http://game1.natehroylance.com/",
-    alt: "image of game 1",
-    image: 'game1.jpg',
-  },
-  {
-    id: 8,
-    name: "2nd Game",
-    date: "11/6/20",
-    url: "http://game2.natehroylance.com/",
-    alt: "image of game 2",
-    image: 'game2.jpg',
   },
 ]
 

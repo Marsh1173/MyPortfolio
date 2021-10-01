@@ -11,28 +11,6 @@
     <li class="nav-item"><router-link class="nav-link btn btn-outline-success" to="/"><b>Home</b></router-link></li>
     <li class="nav-item"><router-link class="nav-link btn btn-sm btn-outline-secondary" to="/about"><b>About</b></router-link></li>
     <li class="nav-item"><router-link class="nav-link btn btn-sm btn-outline-secondary" to="/contact"><b>Contact</b></router-link></li>
-
-    <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        CS224
-      </a>
-      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-        <a class="dropdown-item disabled" href="#">Coming soon</a>
-      </div>
-    </li>
-    <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        CS235
-      </a>
-      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-        <a class="dropdown-item disabled" href="#">Lab 1 Replit</a>
-        <a class="dropdown-item disabled" href="#">Lab 2 Replit</a>
-        <a class="dropdown-item disabled" href="#">Lab 3 Replit</a>
-        <a class="dropdown-item disabled" href="#">Lab 4 Replit</a>
-        <a class="dropdown-item disabled" href="#">Lab 5 Replit</a>
-        <a class="dropdown-item disabled" href="#">Lab 6 Replit</a>
-      </div>
-    </li>
     <li class="nav-item"><router-link class="nav-link btn btn-sm btn-outline-secondary" to="/cs260"><b>CS260</b></router-link></li>
 
   </ul>

@@ -1,20 +1,23 @@
 <template>
   <div class="home">
   <h1>Hello there!</h1>
-  <br>
   <ul>
     <li>
-      <p>Check out my CS260 projects!</p>
+      <h1>Check out my CS260 projects!</h1>
     </li>
     <li>
     <form action="https://github.com/Marsh1173" target="_blank">
-      <p>Github Projects - <input type="submit" value="github.com/Marsh1173" /></p>
+      <h1>Github Projects - <input type="submit" value="github.com/Marsh1173" /></h1>
     </form>
     </li>
     <li>
     <form>
-      <p>Hackerrank - Coming soon!</p>
+      <h1>Hackerrank - Coming soon!</h1>
     </form>
+    </li>
+    <li>
+          <p>This website has built during my whole <br> education. For the best example of my <br> programming ability, check out <br> Block Game and InterByte Heroes <br> in the CS 260 tab.</p>
+
     </li>
   </ul>
   </div>
@@ -30,9 +33,13 @@ export default {
 </script>
 
 <style scoped>
+h1 {
+  margin-top: 30px;
+  font-size: 2rem;
+}
 p {
   margin-top: 30px;
-  font-size: 1.8rem;
+  font-size: 1.3rem;
 }
 input {
   border: none;

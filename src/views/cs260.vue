@@ -48,10 +48,10 @@ a {
   background-color: white;
   color: #438f69;
   box-shadow: 0 0px 1px 0 rgba(0,0,0,0.24), 0 0px 3px 0 rgba(0,0,0,0.19);
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 a p {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: #2f3340;
   margin: 5px;
 }

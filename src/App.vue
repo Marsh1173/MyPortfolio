@@ -21,7 +21,7 @@ import HeaderImage from '@/components/HeaderImage.vue'
 import Footer from '@/components/Footer.vue'
 
 export default {
-  name: 'Home',
+  name: 'cs260',
   components: {
     Directory,
     HeaderImage,
